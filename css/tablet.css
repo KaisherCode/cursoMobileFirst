@@ -1,0 +1,36 @@
+.main-tables-container{
+    display:flex;
+    width:930px;
+    margin:0 auto;
+}
+.main-tables-container::-webkit-scrollbar{
+    display: none;
+}
+.main-currency-table{
+    display: flex;
+    margin: 0 auto;
+}
+.currency-table--container{
+    margin: 0 auto;
+}
+.currency-table--container td:hover{
+    text-decoration: underline var(--secondary-blue);
+    cursor: pointer;
+}
+/*==========================*/
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.product-detail--card:hover{
+    border: 1px solid var(--secondary-blue);
+}
+.plans-container--slider{
+    justify-content: center;
+}
+.plans-container--slider::-webkit-scrollbar{
+    display: none;
+}
+
