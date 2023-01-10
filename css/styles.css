@@ -109,9 +109,11 @@ main{
 }
 .main-exchange-container--title{
     width:90%;
+    height:9rem;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 .main-exchange-container .backgroundImg{
     width:200px;
@@ -144,6 +146,9 @@ main{
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
+.main-tables-container::-webkit-scrollbar{
+    display: none;
+}
 .main-currency-table{
     width: 70%;
     scroll-snap-align: center;
@@ -152,6 +157,9 @@ main{
     height: 360px;
     margin: 0 42px auto;
     font-family: "Inter",sans-serif;
+}
+.main-currency-table::-webkit-scrollbar{
+    display: none;
 }
 .main-currency-table .currency-table--title{
     margin-bottom:15px;
@@ -390,11 +398,13 @@ main{
 }
 .plans-container--slider{
     display: flex;
-    /*gap:5px;*/
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+}
+.plans-container--slider::-webkit-scrollbar{
+    display: none;
 }
 .plans-container--card{
     position: relative;
@@ -408,6 +418,9 @@ main{
     background-color:var(--just-white);
     border-radius: 15px;
     box-shadow:0 4px 8px rgba(89, 73, 30,0.16);
+}
+.plans-container--card::-webkit-scrollbar{
+    display:none;
 }
 .plans-container--card:hover{
     border:2px solid var(--secondary-blue);
